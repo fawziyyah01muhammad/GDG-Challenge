@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="with=divice-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2? family=poppins:wght@100;200;300;400;600;700display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/style.css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>GDG Challenge</title>
+</head>
+<body>
+<section class="header">
+	<nav>	
+        <label class="logo"><b>sunnyside</b></label>
+		<div class="nav-links" id="checkmenu">
+            <i class="fa fa-times" onclick ="hideMenu()"></i>
+			<ul>
+				<li><a href="">About</a></li>
+				<li><a href="">Service</a></li>
+				<li><a href="">Project</a></li>
+                <li><a href="" class="active"><b>CONTACT</b></a></li>
+			</ul>
+		</div>
+        <i class="fa fa-bars"  onclick ="showMenu()"></i>
+	</nav>
+    <div class="text-box"><b>WE ARE CREATIVES</b></div>
+    <span class="arrow">&#8595;</span>
+</section>
+
+<section class="grid">
+    <div class="row">
+        <div class="col">
+            <h1><b>Transform your<br> brand</b></h1>
+            <p><b>We are a full-service creative agency specializing in<br> helping brands grow fast.
+            Engage your clients through<br> compelling visuals that do most of the marketing for you.</b></p>
+            <h2><b>LEARN MORE</b></h2>
+        </div>
+        <div class="col">
+            <img src="./img/image-transform.jpg">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/image-stand-out.jpg">
+            </div>
+            <div class="col">
+                <h1>Stand out to the right audience</h1>
+                <p><b>Using a collabrative formula of designers, researchers,<br>
+                 photographers, vediographer, and copywriters, we'll<br> build and extend your brand in digital places.</b></p>
+                 <h2><b>LEARN MORE</b></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/image-graphic-design.jpg">
+            </div>
+                <div class="col">
+                    <img src="./img/image-photography.jpg">
+                </div>
+                </div>
+</section>
+
+<section class="flex-container">
+    <h3><b>CLIENT TESTIMONIALS</b></h3>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="./img/image-emily.jpg">
+                <p><b>We put our trust in sunnyside and they<br> delivered, making sure our needs were met<br> and deadlines were always hit.</b></p>
+                <h4>Emily R.</h4>
+                <p>marketing director</p>
+            </div>
+            <div class="testimonial-col">
+                <img src="./img/image-thomas.jpg">
+                <p><b>Sunnyside's enthusiasm coupled with their<br> keen interest in our brand's success made it<br>
+                     a satisfying and enjoyable entertainment</b></p>
+                     <h4>Thomas S.</h4>
+                     <p>Chief Operating Officer</p>
+                </div>
+                <div class="testimonial-col">
+                    <img src="./img/image-jennie.jpg">
+                <p><b>Incredible end result! Our sales increased<br> over 400% when we wooked with Sunnyside.<br>Highly recommended!</b></p>
+                <h4>Jannie F.</h4>
+                <p>Business Owner</p>
+            </div>
+            </div>
+</section>
+
+<section class="grid2">
+    <div class="row">
+    <div class="col2">
+   <img src="./img/image-gallery-milkbottles.jpg">
+    </div>
+    <div class="col2">
+        <img src="./img/image-gallery-orange.jpg">
+        </div>
+        <div class="col2">
+            <img src="./img/image-gallery-cone.jpg">
+            </div>
+            <div class="col2">
+                <img src="./img/image-gallery-sugarcubes.jpg">
+                </div>
+    </div>
+</section>
+
+<section class="flex-contaner2">
+    <h2><b>Sunnyside</b></h2>
+    <div class="flex-contaner2-links">
+    	<ul>
+				<li><a href="">About</a></li>
+				<li><a href="">Service</a></li>
+				<li><a href="">Project</a></li>
+			</ul>
+		</div>
+    </div>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-likedin"></i>
+        <i class="fa fa-pinterest"></i>
+</section>
+<!---------- JavaScript for toggle Menu ------->
+<script>
+	var checkmenu = document.getElementById("checkmenu")  
+	function showMenu(){
+		checkmenu.style.right = "0";
+	}
+	function hideMenu(){
+		checkmenu.style.right = "-200px";
+	}
+</script>
+
+</body>
+</html>
