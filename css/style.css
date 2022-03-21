@@ -67,7 +67,9 @@ label.logo{
 @media(max-width:700px){
     .nav-links ul li{
         display: block;
-        text-align: left;
+    }
+    nav{
+        justify-content: space-between;
     }
     .nav-links{
         position:fixed;
@@ -85,7 +87,6 @@ label.logo{
     font-size: 25px;
     font-weight: 400;
     text-align: left;
-    padding-right: 30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .nav-links ul li a.active{
@@ -151,6 +152,52 @@ label.logo{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
 }
+.col-container1{
+    flex-basis: 50%;
+    background-image: url(../img/image-graphic-design.jpg);
+    background-size:cover;
+    height: 400px;
+    vertical-align: middle;
+}
+.col-container1 h2{
+    text-align: center;
+    color:rgba(4, 88, 53, 0.918);
+    font-family: sans-serif;
+    position:relative;
+    top: 65%;
+    left: 0px;
+}
+.col-container1 p{
+    text-align: center;
+    color:rgba(4, 88, 53, 0.918);
+    font-family: sans-serif;
+    position:relative;
+    top: 67%;
+    left: 0px;
+}
+
+.col-container2{
+    flex-basis: 50%;
+    background-image: url(../img/image-photography.jpg);
+    background-size:cover;
+    vertical-align: middle;
+}
+.col-container2 h2{
+    text-align: center;
+    color:rgba(33, 78, 129, 0.918);
+    font-family: sans-serif;
+    position:relative;
+    top: 65%;
+    left: 0px;
+}
+.col-container2 p{
+    text-align: center;
+    color:rgba(29, 76, 129, 0.918);
+    font-family: sans-serif;
+    position:relative;
+    top: 67%;
+    left: 0px;
+}
 
 @media(max-width:700px){
     .row{
@@ -167,6 +214,21 @@ label.logo{
         font-size: 12px;
         margin-left: 20px;
     }
+    .col-container1{
+ padding:15% 25%;
+    }
+    .col-container1 h2{
+        text-align:justify;
+        color:rgba(4, 88, 53, 0.918);
+        font-family: sans-serif;
+        margin-top: 30%;
+        /* position:relative;
+        top: 30%;
+        left: 0px; */
+    }
+    .col-container2{
+        padding: 25%;
+           }
 }
 
 .flex-container{
@@ -237,6 +299,7 @@ label.logo{
    width: 100%;
    vertical-align: middle;
 }
+
 
 @media(max-width:700px){
     .col2{
